@@ -15,7 +15,7 @@ cols_to_scale = bundle["cols_to_scale"]
 dept_map_inv = bundle["dept_map_inv"]
 
 gender_map = bundle["gender_map"]
-tempt_map = bundle["tempt_map"]
+temp_map = bundle["temp_map"]
 hr_map = bundle["hr_map"]
 dur_map = bundle["dur_map"]
 cc_map = bundle["cc_map"]
@@ -87,7 +87,7 @@ gender = st.selectbox("Gender", ["Female", "Male"])
 
 st.header("Symptoms")
 
-col1, col2 = st.clumns(2)
+col1, col2 = st.columns(2)
 
 with col1:
   fever = st.checkbox("Fever")
