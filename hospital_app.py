@@ -91,7 +91,7 @@ col1, col2 = st.columns(2)
 
 with col1:
   fever = st.checkbox("Fever")
-  Cough = st.checkbox("Cough")
+  cough = st.checkbox("Cough")
   headache = st.checkbox("Headache")
   chest_pain = st.checkbox("Chest Pain")
   stomach_pain = st.checkbox("Stomach pain")
